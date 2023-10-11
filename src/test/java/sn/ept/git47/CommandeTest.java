@@ -5,12 +5,12 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class ArticleCommandeTest {
-    private String API_URL = "http://192.168.1.10:8080/projet_matiere-1.0-SNAPSHOT/api/marques";
+public class CommandeTest {
+    private String COMMANDE_ENDPOINT = "http://192.168.1.10:8080/projet_matiere-1.0-SNAPSHOT/api/commandes";
 
     @Test
-    public void testGetAllMarques() {
-        Response response = RestAssured.get(API_URL);
+    public void getAll() {
+        Response response = RestAssured.get(COMMANDE_ENDPOINT);
 
         Assert.assertEquals(response.getStatusCode(), 200);
     }

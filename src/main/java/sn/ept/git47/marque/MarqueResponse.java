@@ -1,4 +1,6 @@
-package sn.ept.git47;
+package sn.ept.git47.marque;
+
+import sn.ept.git47.marque.Marque;
 
 public class MarqueResponse {
     private Marque marque;

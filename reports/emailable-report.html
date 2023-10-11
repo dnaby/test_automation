@@ -25,14 +25,72 @@ td,th {border:1px solid #009;padding:.25em .5em}
 <body>
 <table cellspacing="0" cellpadding="0" class="testOverview">
 <tr><th>Test</th><th>Methods<br/>Passed</th><th>Scenarios<br/>Passed</th><th># skipped</th><th># failed</th><th>Total<br/>Time</th><th>Included<br/>Groups</th><th>Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em"><a href="#t1">test_automation</a></td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">2,7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em"><a href="#t1">test_automation</a></td><td class="numi">23</td><td class="numi">23</td><td class="numi">0</td><td class="numi">0</td><td class="numi">9,3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="methodOverview" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
 <tr id="t1"><th colspan="5">test_automation &#8212; passed</th></tr>
-<tr class="passedodd"><td>sn.ept.git47.MarqueTest</td><td><a href="#m1"><b>testGetAllMarques</b>  </a></td><td class="numi">1</td><td>1696550873786</td><td class="numi">2603</td></tr>
+<tr class="passedodd"><td>sn.ept.git47.ProduitTest</td><td><a href="#m1"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982607777</td><td class="numi">74</td></tr>
+<tr class="passedeven"><td>sn.ept.git47.CategorieTest</td><td><a href="#m2"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982602770</td><td class="numi">79</td></tr>
+<tr class="passedodd"><td rowspan="2">sn.ept.git47.MarqueTest</td><td><a href="#m3"><b>updateMarque_With_NameConflict</b>  </a></td><td class="numi">1</td><td>1696982602546</td><td class="numi">42</td></tr><tr class="passedodd"><td><a href="#m4"><b>createNewMarque_With_NameConflict</b>  </a></td><td class="numi">1</td><td>1696982602378</td><td class="numi">46</td></tr>
+<tr class="passedeven"><td>sn.ept.git47.StockTest</td><td><a href="#m5"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982608095</td><td class="numi">163</td></tr>
+<tr class="passedodd"><td>sn.ept.git47.CategorieTest</td><td><a href="#m6"><b>createNewCategorie_With_NameConflict</b>  </a></td><td class="numi">1</td><td>1696982602933</td><td class="numi">27</td></tr>
+<tr class="passedeven"><td>sn.ept.git47.ArticleCommandeTest</td><td><a href="#m7"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982603477</td><td class="numi">3988</td></tr>
+<tr class="passedodd"><td>sn.ept.git47.CategorieTest</td><td><a href="#m8"><b>deleteCategorie</b>  </a></td><td class="numi">1</td><td>1696982603060</td><td class="numi">46</td></tr>
+<tr class="passedeven"><td rowspan="2">sn.ept.git47.MarqueTest</td><td><a href="#m9"><b>deleteMarque_With_UnexistingID</b>  </a></td><td class="numi">1</td><td>1696982602714</td><td class="numi">43</td></tr><tr class="passedeven"><td><a href="#m10"><b>createNewMarque</b>  </a></td><td class="numi">1</td><td>1696982601893</td><td class="numi">483</td></tr>
+<tr class="passedodd"><td>sn.ept.git47.CommandeTest</td><td><a href="#m11"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982607852</td><td class="numi">196</td></tr>
+<tr class="passedeven"><td>sn.ept.git47.EmployeTest</td><td><a href="#m12"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982608049</td><td class="numi">45</td></tr>
+<tr class="passedodd"><td rowspan="2">sn.ept.git47.MarqueTest</td><td><a href="#m13"><b>updateMarque</b>  </a></td><td class="numi">1</td><td>1696982602429</td><td class="numi">115</td></tr><tr class="passedodd"><td><a href="#m14"><b>deleteMarque</b>  </a></td><td class="numi">1</td><td>1696982602590</td><td class="numi">58</td></tr>
+<tr class="passedeven"><td>sn.ept.git47.MagasinTest</td><td><a href="#m15"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982607470</td><td class="numi">305</td></tr>
+<tr class="passedodd"><td>sn.ept.git47.ClientTest</td><td><a href="#m16"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982603176</td><td class="numi">297</td></tr>
+<tr class="passedeven"><td rowspan="5">sn.ept.git47.CategorieTest</td><td><a href="#m17"><b>updateCategorie_With_UnexistingID</b>  </a></td><td class="numi">1</td><td>1696982603107</td><td class="numi">36</td></tr><tr class="passedeven"><td><a href="#m18"><b>createNewCategorie</b>  </a></td><td class="numi">1</td><td>1696982602856</td><td class="numi">76</td></tr><tr class="passedeven"><td><a href="#m19"><b>updateCategorie</b>  </a></td><td class="numi">1</td><td>1696982602962</td><td class="numi">50</td></tr><tr class="passedeven"><td><a href="#m20"><b>updateCategorie_With_NameConflict</b>  </a></td><td class="numi">1</td><td>1696982603015</td><td class="numi">41</td></tr><tr class="passedeven"><td><a href="#m21"><b>deleteCategorie_With_UnexistingID</b>  </a></td><td class="numi">1</td><td>1696982603145</td><td class="numi">29</td></tr>
+<tr class="passedodd"><td rowspan="2">sn.ept.git47.MarqueTest</td><td><a href="#m22"><b>getAll</b>  </a></td><td class="numi">1</td><td>1696982599025</td><td class="numi">2829</td></tr><tr class="passedodd"><td><a href="#m23"><b>updateMarque_With_UnexistingID</b>  </a></td><td class="numi">1</td><td>1696982602657</td><td class="numi">55</td></tr>
 </table>
 <h1>test_automation</h1>
-<h2 id="m1">sn.ept.git47.MarqueTest:testGetAllMarques</h2>
+<h2 id="m1">sn.ept.git47.MarqueTest:updateMarque</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m2">sn.ept.git47.MarqueTest:deleteMarque</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m3">sn.ept.git47.ProduitTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m4">sn.ept.git47.CategorieTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m5">sn.ept.git47.MarqueTest:updateMarque_With_NameConflict</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m6">sn.ept.git47.MarqueTest:createNewMarque_With_NameConflict</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m7">sn.ept.git47.StockTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m8">sn.ept.git47.CategorieTest:createNewCategorie_With_NameConflict</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m9">sn.ept.git47.ArticleCommandeTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m10">sn.ept.git47.CategorieTest:deleteCategorie</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m11">sn.ept.git47.MagasinTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m12">sn.ept.git47.MarqueTest:deleteMarque_With_UnexistingID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m13">sn.ept.git47.ClientTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m14">sn.ept.git47.CategorieTest:updateCategorie_With_UnexistingID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m15">sn.ept.git47.MarqueTest:createNewMarque</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m16">sn.ept.git47.CommandeTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m17">sn.ept.git47.CategorieTest:createNewCategorie</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m18">sn.ept.git47.CategorieTest:updateCategorie</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m19">sn.ept.git47.CategorieTest:updateCategorie_With_NameConflict</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m20">sn.ept.git47.CategorieTest:deleteCategorie_With_UnexistingID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m21">sn.ept.git47.MarqueTest:getAll</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m22">sn.ept.git47.MarqueTest:updateMarque_With_UnexistingID</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<h2 id="m23">sn.ept.git47.EmployeTest:getAll</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

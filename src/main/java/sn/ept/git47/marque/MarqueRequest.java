@@ -1,4 +1,4 @@
-package sn.ept.git47;
+package sn.ept.git47.marque;
 
 public class MarqueRequest {
     private String nom;

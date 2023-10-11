@@ -1,4 +1,4 @@
-package sn.ept.git47;
+package sn.ept.git47.marque;
 
 public class Marque {
     private int id;
